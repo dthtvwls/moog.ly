@@ -1,0 +1,7 @@
+{ "name": "moogle"
+, "version": "0.0.1"
+, "dependencies":
+  { "coffee-script": "1.2.0"
+  , "express": "2.5.8"
+  }
+}
