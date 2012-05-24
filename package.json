@@ -1,4 +1,4 @@
-{ "name": "moogle"
+{ "name": "moog.ly"
 , "version": "0.0.1"
 , "dependencies":
   { "coffee-script": "1.2.0"

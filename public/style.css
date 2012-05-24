@@ -1,3 +1,7 @@
+#hplogo {
+  padding: 30px;
+}
+
 #moog area {
   cursor:pointer !important
 }
@@ -172,7 +176,7 @@
 #moog-map, #moog-bkg, #keymap {
   float:right;
   position:relative;
-  z-index:901;
+  z-index:10000;
   outline:0;
   border:none
 }
@@ -193,38 +197,6 @@ w.moog-actv {
   height:9px;
   top:63px;
   left:437px;
-  position:absolute
-}
-#moog-g-plus {
-  cursor:pointer;
-  width:40px;
-  height:23px;
-  top:129px;
-  left:428px;
-  position:absolute
-}
-#moog-g-plus-inactive {
-  background:no-repeat url(moog-hp-sprite2.png) -194px -57px;
-  width:40px;
-  height:23px;
-  top:129px;
-  left:428px;
-  position:absolute
-}
-#moog-g-plus-up {
-  background:no-repeat url(moog-hp-sprite2.png) -194px -366px;
-  width:40px;
-  height:23px;
-  top:129px;
-  left:428px;
-  position:absolute
-}
-#moog-g-plus-active {
-  background:no-repeat url(moog-hp-sprite2.png) 0 -23px;
-  width:39px;
-  height:23px;
-  top:129px;
-  left:428px;
   position:absolute
 }
 #moog-link {
@@ -333,6 +305,107 @@ w.moog-actv {
 }
 .moog-reel-1 {
   background:no-repeat url(moog-hp-sprite2.png) -233px 0;
+  width:57px;
+  height:57px
+}
+.moog-reel-2 {
+  background:no-repeat url(moog-hp-sprite2.png) -66px -155px;
+  width:57px;
+  height:57px
+}
+.moog-reel-3 {
+  background:no-repeat url(moog-hp-sprite2.png) -163px 0;
+  width:57px;
+  height:57px
+}
+.moog-reel-4 {
+  background:no-repeat url(moog-hp-sprite2.png) -123px -86px;
+  width:57px;
+  height:57px
+}
+.moog-reel-5 {
+  background:no-repeat url(moog-hp-sprite2.png) -66px -80px;
+  width:57px;
+  height:57px
+}
+.moog-reel-6 {
+  background:no-repeat url(moog-hp-sprite2.png) -66px -344px;
+  width:57px;
+  height:57px
+}
+.moog-reel-7 {
+  background:no-repeat url(moog-hp-sprite2.png) 0 -434px;
+  width:57px;
+  height:57px
+}
+.moog-reel-8 {
+  background:no-repeat url(moog-hp-sprite2.png) -106px 0;
+  width:57px;
+  height:57px
+}
+.moog-reel-9 {
+  background:no-repeat url(moog-hp-sprite2.png) -123px -244px;
+  width:57px;
+  height:57px
+}
+.moog-reel-10 {
+  background:no-repeat url(moog-hp-sprite2.png) 0 -46px;
+  width:57px;
+  height:57px
+}
+.moog-reel-11 {
+  background:no-repeat url(moog-hp-sprite2.png) -4px -274px;
+  width:57px;
+  height:57px
+}
+.moog-reel-12 {
+  background:no-repeat url(moog-hp-sprite2.png) 0 -103px;
+  width:57px;
+  height:57px
+}
+.moog-reel-13 {
+  background:no-repeat url(moog-hp-sprite2.png) -194px -203px;
+  width:57px;
+  height:57px
+}
+.moog-reel-14 {
+  background:no-repeat url(moog-hp-sprite2.png) -234px -260px;
+  width:57px;
+  height:57px
+}
+.moog-reel-15 {
+  background:no-repeat url(moog-hp-sprite2.png) 0 -160px;
+  width:57px;
+  height:57px
+}
+.moog-reel-16 {
+  background:no-repeat url(moog-hp-sprite2.png) -4px -354px;
+  width:57px;
+  height:57px
+}
+.moog-reel-17 {
+  background:no-repeat url(moog-hp-sprite2.png) -66px -437px;
+  margin:1px 0 0 1px;
+  width:55px;
+  height:55px
+}
+.moog-reel-18 {
+  background:no-repeat url(moog-hp-sprite2.png) -234px -80px;
+  width:57px;
+  height:57px
+}
+.moog-reel-19 {
+  background:no-repeat url(moog-hp-sprite2.png) -194px -137px;
+  width:57px;
+  height:57px
+}
+.moog-reel-20 {
+  background:no-repeat url(moog-hp-sprite2.png) -123px -143px;
+  width:57px;
+  height:57px
+}
+.moog-reel-21 {
+  background:no-repeat url(moog-hp-sprite2.png) -4px -217px;
   width:57px;
   height:57px
 }
@@ -481,6 +554,7 @@ w.moog-actv {
   height:18px
 }
 #moog-tooltip-canvas {
+  display:none;
   bottom:5px;
   display:table;
   left:435px;
@@ -504,6 +578,7 @@ w.moog-actv {
   visibility:hidden
 }
 #moog-tooltip.full-visible {
+  display:none;
   transition:opacity 1s;
   -o-transition:opacity 1s;
   -moz-transition:opacity 1s;
@@ -550,7 +625,7 @@ w.moog-actv {
   width:4px;
   height:3px;
   left:1px;
-  margin:0 auto;
+  margin:0;
   padding:0;
   position:relative;
   top:8px
@@ -577,7 +652,7 @@ w.moog-actv {
 #decaytime {
   left:263px;
   top:120px;
-  z-index:901
+  z-index:1001
 }
 #sustainlevel {
   left:263px;
@@ -590,7 +665,7 @@ w.moog-actv {
 #moog-glide {
   left:210px;
   top:120px;
-  z-index:901
+  z-index:1001
 }
 #cutoff {
   left:210px;
@@ -625,20 +700,6 @@ w.moog-actv {
 }
 #moog-volume1.knob-glow, #moog-volume2.knob-glow, #moog-volume3.knob-glow, #moog-loudness-attack.knob-glow, #moog-loudness-decay.knob-glow, #moog-loudness-sustain.knob-glow, #moog-osc1-wf.knob-glow, #moog-osc2-wf.knob-glow, #moog-osc3-wf.knob-glow, #moog-osc1-rg.knob-glow, #moog-osc2-rg.knob-glow, #moog-osc3-rg.knob-glow {
   background:no-repeat url(moog-hp-sprite2.png) -194px -260px
-}
-#attacktime, #moog-glide, #decaytime, #contouramount, #sustainlevel#mastervol, #moog-osc2-pb, #moog-osc3-pb, #cutoff {
-  -webkit-transition:opacity 0.2s ease-in-out;
-  -moz-transition:opacity 0.2s ease-in-out;
-  -o-transition:opacity 0.2s ease-in-out;
-  -ms-transition:opacity 0.2s ease-in-out;
-  transition:opacity 0.2s ease-in-out
-}
-#moog-volume1, #moog-volume2, #moog-volume3, #moog-loudness-attack, #moog-loudness-decay, #moog-loudness-sustain, #moog-osc1-wf, #moog-osc2-wf, #moog-osc3-wf, #moog-osc1-rg, #moog-osc2-rg, #moog-osc3-rg {
-  -webkit-transition:opacity 0.2s ease-in-out;
-  -moz-transition:opacity 0.2s ease-in-out;
-  -o-transition:opacity 0.2s ease-in-out;
-  -ms-transition:opacity 0.2s ease-in-out;
-  transition:opacity 0.2s ease-in-out
 }
 #moog-osc2-pb, #moog-osc3-pb {
   left:150px;
@@ -684,10 +745,10 @@ w.moog-actv {
   position:absolute;
   top:55px;
   width:30px;
-  z-index:899
+  z-index:999
 }
 .knob-glow {
-  z-index:900
+  z-index:1000
 }
 #moog-switch {
   top:121px;
@@ -696,7 +757,7 @@ w.moog-actv {
   height:10px;
   position:absolute;
   cursor:pointer;
-  z-index:903
+  z-index:10001
 }
 .moog-switch-on {
   background:none
