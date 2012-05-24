@@ -1,0 +1,811 @@
+#moog area {
+  cursor:pointer !important
+}
+#moog {
+  background:transparent no-repeat url(moog-hp-base2.png);
+  position:relative;
+  top:0;
+  left:40px;
+  width:600px;
+  height:225px;
+  padding:0;
+  -webkit-user-select:none
+}
+#moog-keyboard {
+  height:224px;
+  position:absolute;
+  width:400px;
+  top:0;
+  left:0
+}
+#moog-map {
+  position:relative;
+  top:10pxpadding:0;
+  margin:0
+}
+#moog-keyboard>w, #moog-keyboard>s {
+  background-color:transparent;
+  background-image:url(moog-hp-k-sprite.png);
+  background-repeat:no-repeat;
+  position:absolute
+}
+#moog-keyboard>w {
+  height:66px;
+  top:125px;
+  width:42px;
+  z-index:1
+}
+#moog-keyboard>s {
+  top:120px;
+  z-index:2
+}
+#moogk0 {
+  background-position:0 -2337px;
+  left:50px
+}
+#moogk1 {
+  background-position:0 -2297px;
+  height:39px;
+  left:71px;
+  width:25px
+}
+#moogk2 {
+  background-position:0 -1983px;
+  left:75px
+}
+#moogk3 {
+  background-position:0 -354px;
+  height:41px;
+  left:95px;
+  width:22px
+}
+#moogk4 {
+  background-position:0 -2405px;
+  left:100px
+}
+#moogk5 {
+  background-position:-18px -314px;
+  height:39px;
+  left:120px;
+  width:25px
+}
+#moogk6 {
+  background-position:0 -1048px;
+  left:124px
+}
+#moogk7 {
+  background-position:0 -437px;
+  left:149px
+}
+#moogk8 {
+  background-position:0 -1453px;
+  width:16px;
+  height:39px;
+  left:166px
+}
+#moogk9 {
+  background-position:0 -1317px;
+  left:173px
+}
+#moogk10 {
+  background-position:0 -613px;
+  width:23px;
+  left:191px;
+  height:39px
+}
+#moogk11 {
+  background-position:-16px -1453px;
+  left:198px;
+  width:23px;
+  height:68px
+}
+#moogk12 {
+  background-position:0 -695px;
+  height:68px;
+  left:220px;
+  width:25px
+}
+#moogk13 {
+  background-position:0 -314px;
+  height:41px;
+  left:235px;
+  width:17px
+}
+#moogk14 {
+  background-position:0 -2160px;
+  height:68px;
+  left:244px;
+  width:28px
+}
+#moogk15 {
+  background-position:-16px -654px;
+  height:40px;
+  left:260px;
+  width:22px
+}
+#moogk16 {
+  background-position:0 -1630px;
+  height:68px;
+  left:268px;
+  width:29px
+}
+#moogk17 {
+  background-position:0 -1521px;
+  height:39px;
+  left:283px;
+  width:19px
+}
+#moogk18 {
+  background-position:0 -1385px;
+  height:67px;
+  left:289px;
+  width:30px
+}
+#moogk19 {
+  background-position:0 -1px;
+  left:308px
+}
+#moogk20 {
+  background-position:0 -1767px;
+  height:39px;
+  left:323px;
+  width:23px
+}
+#moogk21 {
+  background-position:0 -246px;
+  height:67px;
+  left:329px;
+  width:39px
+}
+#moogk22 {
+  background-position:0 -900px;
+  height:39px;
+  left:346px;
+  width:25px
+}
+#moogk23 {
+  background-position:-1px -1915px;
+  height:68px;
+  left:354px;
+  width:39px
+}
+#moog-map, #moog-bkg, #keymap {
+  float:right;
+  position:relative;
+  z-index:901;
+  outline:0;
+  border:none
+}
+w.moog-actv {
+  top:124px !important
+}
+#moog-4-track {
+  background:no-repeat url(moog-hp-sprite2.png) -121px -401px;
+  width:132px;
+  height:128px;
+  top:31px;
+  left:398px;
+  position:absolute
+}
+#moog-4-track-knobs {
+  background:no-repeat url(moog-hp-sprite2.png) -194px -194px;
+  width:74px;
+  height:9px;
+  top:63px;
+  left:437px;
+  position:absolute
+}
+#moog-g-plus {
+  cursor:pointer;
+  width:40px;
+  height:23px;
+  top:129px;
+  left:428px;
+  position:absolute
+}
+#moog-g-plus-inactive {
+  background:no-repeat url(moog-hp-sprite2.png) -194px -57px;
+  width:40px;
+  height:23px;
+  top:129px;
+  left:428px;
+  position:absolute
+}
+#moog-g-plus-up {
+  background:no-repeat url(moog-hp-sprite2.png) -194px -366px;
+  width:40px;
+  height:23px;
+  top:129px;
+  left:428px;
+  position:absolute
+}
+#moog-g-plus-active {
+  background:no-repeat url(moog-hp-sprite2.png) 0 -23px;
+  width:39px;
+  height:23px;
+  top:129px;
+  left:428px;
+  position:absolute
+}
+#moog-link {
+  cursor:pointer;
+  width:40px;
+  height:23px;
+  top:129px;
+  left:475px;
+  position:absolute
+}
+#moog-link-inactive {
+  background:no-repeat url(moog-hp-sprite2.png) -245px -339px;
+  width:40px;
+  height:23px;
+  top:129px;
+  left:475px;
+  position:absolute
+}
+#moog-link-up {
+  background:no-repeat url(moog-hp-sprite2.png) -4px -331px;
+  width:40px;
+  height:23px;
+  top:129px;
+  left:475px;
+  position:absolute
+}
+#moog-link-active {
+  background:no-repeat url(moog-hp-sprite2.png) -123px -311px;
+  width:39px;
+  height:22px;
+  top:129px;
+  left:475px;
+  position:absolute
+}
+#moog-play {
+  cursor:pointer;
+  width:40px;
+  height:23px;
+  top:102px;
+  left:428px;
+  position:absolute
+}
+#moog-play-inactive {
+  background:no-repeat url(moog-hp-sprite2.png) -251px -203px;
+  width:39px;
+  height:22px;
+  top:102px;
+  left:428px;
+  position:absolute
+}
+#moog-play-up {
+  background:no-repeat url(moog-hp-sprite2.png) -245px -317px;
+  width:39px;
+  height:22px;
+  top:102px;
+  left:428px;
+  position:absolute
+}
+#moog-stop {
+  background:no-repeat url(moog-hp-sprite2.png) -123px -333px;
+  width:39px;
+  height:22px;
+  top:102px;
+  left:428px;
+  position:absolute
+}
+#moog-stop-up {
+  background:no-repeat url(moog-hp-sprite2.png) -123px -355px;
+  width:39px;
+  height:22px;
+  top:102px;
+  left:428px;
+  position:absolute
+}
+#moog-reel-tape-left {
+  background:no-repeat url(moog-hp-sprite2.png) -194px -289px;
+  width:37px;
+  height:34px;
+  top:30px;
+  left:421px;
+  position:absolute
+}
+#moog-reel-tape-right {
+  background:no-repeat url(moog-hp-sprite2.png) -194px -289px;
+  width:37px;
+  height:34px;
+  top:31px;
+  left:482px;
+  position:absolute
+}
+#moog-reel-left {
+  top:18px;
+  left:412px;
+  position:absolute
+}
+#moog-reel-right {
+  top:19px;
+  left:473px;
+  position:absolute
+}
+.moog-reel-0 {
+  background:no-repeat url(moog-hp-sprite2.png) -66px -212px;
+  margin:1px 0 0 1px;
+  width:55px;
+  height:55px
+}
+.moog-reel-1 {
+  background:no-repeat url(moog-hp-sprite2.png) -233px 0;
+  width:57px;
+  height:57px
+}
+#moog-reel-over-left {
+  background:no-repeat url(moog-hp-sprite2.png) -66px -291px;
+  width:54px;
+  height:53px;
+  top:19px;
+  left:412px;
+  position:absolute
+}
+#moog-reel-over-right {
+  background:no-repeat url(moog-hp-sprite2.png) -66px -291px;
+  width:54px;
+  height:53px;
+  top:20px;
+  left:473px;
+  position:absolute
+}
+#moog-record {
+  cursor:pointer;
+  width:40px;
+  height:24px;
+  top:102px;
+  left:475px;
+  position:absolute
+}
+#moog-record-up {
+  background:no-repeat url(moog-hp-sprite2.png) 0 0;
+  width:40px;
+  height:23px;
+  top:102px;
+  left:475px;
+  position:absolute
+}
+#moog-record-inactive {
+  background:no-repeat url(moog-hp-sprite2.png) -66px -57px;
+  width:40px;
+  height:23px;
+  top:102px;
+  left:475px;
+  position:absolute
+}
+#moog-record-active {
+  background:no-repeat url(moog-hp-sprite2.png) -4px -411px;
+  width:40px;
+  height:24px;
+  top:102px;
+  left:475px;
+  position:absolute
+}
+.moog-meter-needle {
+  background:no-repeat url(moog-hp-sprite2.png) -153px -57px;
+  width:2px;
+  height:11px;
+  position:absolute;
+  top:86px;
+  -webkit-transform:rotate(-45deg);
+  -moz-transform:rotate(-45deg);
+  -o-transform:rotate(-45deg);
+  -ms-transform:rotate(-45deg);
+  transform:rotate(-45deg)
+}
+#moog-meter-needle-1 {
+  left:432px
+}
+#moog-meter-needle-2 {
+  left:457px
+}
+#moog-meter-needle-3 {
+  left:482px
+}
+#moog-meter-needle-4 {
+  left:507px
+}
+.moog-meter-inactive {
+  background:no-repeat url(moog-hp-sprite2.png) -251px -137px;
+  width:25px;
+  height:18px
+}
+.moog-meter-active {
+  background:no-repeat url(moog-hp-sprite2.png) -40px 0;
+  width:25px;
+  height:18px
+}
+.moog-meter-up {
+  background:no-repeat url(moog-hp-sprite2.png) -66px -137px;
+  width:25px;
+  height:18px
+}
+.moog-meter-recording {
+  background:no-repeat url(moog-hp-sprite2.png) -91px -137px;
+  width:25px;
+  height:18px
+}
+#moog-meter-1 {
+  top:80px;
+  left:421px;
+  position:absolute
+}
+#moog-meter-2 {
+  top:80px;
+  left:446px;
+  position:absolute
+}
+#moog-meter-3 {
+  top:80px;
+  left:471px;
+  position:absolute
+}
+#moog-meter-4 {
+  top:80px;
+  left:496px;
+  position:absolute
+}
+#moog-meter-target-1 {
+  cursor:pointer;
+  top:80px;
+  left:421px;
+  position:absolute;
+  width:25px;
+  height:18px
+}
+#moog-meter-target-2 {
+  cursor:pointer;
+  top:80px;
+  left:446px;
+  position:absolute;
+  width:25px;
+  height:18px
+}
+#moog-meter-target-3 {
+  cursor:pointer;
+  top:80px;
+  left:471px;
+  position:absolute;
+  width:25px;
+  height:18px
+}
+#moog-meter-target-4 {
+  cursor:pointer;
+  top:80px;
+  left:496px;
+  position:absolute;
+  width:25px;
+  height:18px
+}
+#moog-tooltip-canvas {
+  bottom:5px;
+  display:table;
+  left:435px;
+  height:50px;
+  position:absolute;
+  width:170px
+}
+#moog-tooltip {
+  background:#fff;
+  color:#7b2114;
+  display:table-cell;
+  font-family:Arial, sans-serif;
+  font-size:13px;
+  outline:none;
+  transition:opacity 2s;
+  -o-transition:opacity 2s;
+  -moz-transition:opacity 2s;
+  -ms-transition:opacity 2s;
+  -webkit-transition:opacity 2s;
+  vertical-align:middle;
+  visibility:hidden
+}
+#moog-tooltip.full-visible {
+  transition:opacity 1s;
+  -o-transition:opacity 1s;
+  -moz-transition:opacity 1s;
+  -ms-transition:opacity 1s;
+  -webkit-transition:opacity 1s
+}
+#moog-tooltip.half-visible {
+  transition:opacity 4s;
+  -o-transition:opacity 4s;
+  -moz-transition:opacity 4s;
+  -ms-transition:opacity 4s;
+  -webkit-transition:opacity 4s
+}
+#moog-link-tab {
+  top:130px;
+  left:524px;
+  position:absolute;
+  background:no-repeat url(moog-hp-sprite2.png) -66px -529px;
+  width:0;
+  height:20px;
+  overflow:hidden
+}
+#moog-link-text {
+  background:none;
+  border:none;
+  color:white;
+  cursor:text;
+  font-family:'Open Sans', Arial, sans-serif;
+  font-size:12px;
+  margin:0 10px;
+  padding:0;
+  text-decoration:none;
+  width:0;
+  -webkit-user-select:text
+}
+#knobs {
+  position:absolute;
+  top:-86px;
+  left:0px
+}
+.knob-indicator {
+  background:no-repeat url(moog-hp-sprite2.png) 0 -217px;
+  display:block;
+  width:4px;
+  height:3px;
+  left:1px;
+  margin:0 auto;
+  padding:0;
+  position:relative;
+  top:8px
+}
+#mastervol {
+  height:36px;
+  left:39px;
+  width:37px;
+  top:93px
+}
+#attacktime, #decaytime, #contouramount, #sustainlevel, #cutoff, #moog-glide {
+  height:36px;
+  margin:0 !important;
+  width:37px
+}
+#decaytime .knob-indicator {
+  left:1px;
+  top:1px
+}
+#attacktime {
+  left:263px;
+  top:93px
+}
+#decaytime {
+  left:263px;
+  top:120px;
+  z-index:901
+}
+#sustainlevel {
+  left:263px;
+  top:148px
+}
+#contouramount {
+  left:210px;
+  top:148px
+}
+#moog-glide {
+  left:210px;
+  top:120px;
+  z-index:901
+}
+#cutoff {
+  left:210px;
+  top:93px
+}
+#moog-volume1 {
+  left:94px;
+  top:123px
+}
+#moog-volume2 {
+  left:94px;
+  top:95px
+}
+#moog-volume3 {
+  left:94px;
+  top:152px
+}
+#moog-loudness-attack {
+  left:299px;
+  top:94px
+}
+#moog-loudness-decay {
+  left:299px;
+  top:123px
+}
+#moog-loudness-sustain {
+  left:299px;
+  top:152px
+}
+#attacktime.knob-glow, #moog-glide.knob-glow, #decaytime.knob-glow, #contouramount.knob-glow, #sustainlevel.knob-glow, #mastervol.knob-glow, #moog-osc2-pb.knob-glow, #moog-osc3-pb.knob-glow, #cutoff.knob-glow {
+  background:no-repeat url(moog-hp-sprite2.png) -66px -401px
+}
+#moog-volume1.knob-glow, #moog-volume2.knob-glow, #moog-volume3.knob-glow, #moog-loudness-attack.knob-glow, #moog-loudness-decay.knob-glow, #moog-loudness-sustain.knob-glow, #moog-osc1-wf.knob-glow, #moog-osc2-wf.knob-glow, #moog-osc3-wf.knob-glow, #moog-osc1-rg.knob-glow, #moog-osc2-rg.knob-glow, #moog-osc3-rg.knob-glow {
+  background:no-repeat url(moog-hp-sprite2.png) -194px -260px
+}
+#attacktime, #moog-glide, #decaytime, #contouramount, #sustainlevel#mastervol, #moog-osc2-pb, #moog-osc3-pb, #cutoff {
+  -webkit-transition:opacity 0.2s ease-in-out;
+  -moz-transition:opacity 0.2s ease-in-out;
+  -o-transition:opacity 0.2s ease-in-out;
+  -ms-transition:opacity 0.2s ease-in-out;
+  transition:opacity 0.2s ease-in-out
+}
+#moog-volume1, #moog-volume2, #moog-volume3, #moog-loudness-attack, #moog-loudness-decay, #moog-loudness-sustain, #moog-osc1-wf, #moog-osc2-wf, #moog-osc3-wf, #moog-osc1-rg, #moog-osc2-rg, #moog-osc3-rg {
+  -webkit-transition:opacity 0.2s ease-in-out;
+  -moz-transition:opacity 0.2s ease-in-out;
+  -o-transition:opacity 0.2s ease-in-out;
+  -ms-transition:opacity 0.2s ease-in-out;
+  transition:opacity 0.2s ease-in-out
+}
+#moog-osc2-pb, #moog-osc3-pb {
+  left:150px;
+  height:36px;
+  width:37px
+}
+#moog-osc2-pb {
+  top:91px
+}
+#moog-osc3-pb {
+  top:145px
+}
+#moog-osc2-rg {
+  top:94px;
+  left:127px
+}
+#moog-osc1-rg {
+  top:122px;
+  left:127px
+}
+#moog-osc3-rg {
+  left:127px;
+  top:151px
+}
+#moog-osc2-wf {
+  left:181px;
+  top:94px
+}
+#moog-osc1-wf {
+  left:181px;
+  top:122px
+}
+#moog-osc3-wf {
+  left:181px;
+  top:151px
+}
+.knob {
+  cursor:pointer;
+  height:29px;
+  left:25px;
+  margin:0;
+  padding:0;
+  position:absolute;
+  top:55px;
+  width:30px;
+  z-index:899
+}
+.knob-glow {
+  z-index:900
+}
+#moog-switch {
+  top:121px;
+  left:37px;
+  width:21px;
+  height:10px;
+  position:absolute;
+  cursor:pointer;
+  z-index:903
+}
+.moog-switch-on {
+  background:none
+}
+.moog-switch-off {
+  background:no-repeat url(moog-hp-sprite2.png) -123px -301px
+}
+#moog-mod-wheel {
+  cursor:pointer;
+  position:absolute;
+  left:30px;
+  top:135px;
+  width:10px
+}
+#moog-mod-wheel>.knob-indicator {
+  display:none
+}
+#moog-mod-wheel-bg {
+  position:absolute;
+  background:no-repeat url(moog-hp-sprite2.png) -135px -200px;
+  width:32px;
+  height:44px;
+  left:28px;
+  top:138px;
+  z-index:-1
+}
+#moog-mod-wheel-ind {
+  position:absolute;
+  background:no-repeat url(moog-hp-sprite2.png) -194px -323px;
+  width:20px;
+  height:7px;
+  left:30px;
+  top:150px;
+  z-index:-1
+}
+.goog-slider-vertical, .goog-slider-horizontal {
+  overflow:hidden;
+  position:relative;
+  outline:none
+}
+.goog-slider-thumb {
+  overflow:hidden;
+  position:absolute;
+  outline:none
+}
+#moog-bubble {
+  position:absolute;
+  background:no-repeat url(moog-hp-sprite2.png) 0 -491px;
+  width:66px;
+  height:43px;
+  top:-39px;
+  left:26px
+}
+#moog-bubble-text {
+  font-family:'Open Sans', Arial, sans-serif;
+  font-size:13px;
+  color:#fff;
+  text-align:center;
+  position:absolute;
+  top:9px;
+  left:13px;
+  height:31px;
+  width:39px
+}
+#moog-wf {
+  position:absolute;
+  top:11px;
+  left:26px
+}
+.moog-wf-0 {
+  background:no-repeat url(moog-hp-sprite2.png) -180px -143px;
+  width:12px;
+  height:12px
+}
+.moog-wf-1 {
+  background:no-repeat url(moog-hp-sprite2.png) -123px -200px;
+  width:12px;
+  height:12px
+}
+.moog-wf-2 {
+  background:no-repeat url(moog-hp-sprite2.png) -234px -317px;
+  width:11px;
+  height:12px
+}
+.moog-wf-3 {
+  background:no-repeat url(moog-hp-sprite2.png) -220px 0;
+  width:13px;
+  height:12px
+}
+.moog-wf-4 {
+  background:no-repeat url(moog-hp-sprite2.png) -44px -411px;
+  width:14px;
+  height:12px
+}
+.moog-wf-5 {
+  background:no-repeat url(moog-hp-sprite2.png) -194px -389px;
+  width:16px;
+  height:12px
+}
+.moog-wf-6 {
+  background:no-repeat url(moog-hp-sprite2.png) -251px -529px;
+  width:13px;
+  height:12px
+}
+#moog-led {
+  background:no-repeat url(moog-hp-sprite2.png) -264px -529px;
+  position:absolute;
+  width:20px;
+  height:21px;
+  left:333px;
+  top:39px
+}
